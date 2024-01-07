@@ -1,0 +1,68 @@
+:root {
+  /* Color  */
+  --SoftPrimary: #84d187;
+  --Primary: #00b207;
+  --HardPrimary: #2c742f;
+  --Warning: #ff8a00;
+  --Danger: #ea4b48;
+  --White: #ffffff;
+
+  /* Gray */
+  --Gray200: #cccccc;
+  --Gray300: #b3b3b3;
+  --Gray400: #999999;
+  --Gray700: #4d4d4d;
+  --Gray800: #333333;
+  --Gray900: #1a1a1a;
+
+  /* Typography */
+  --Poppins300: 300;
+  --Poppins400: 400;
+  --Poppins500: 500;
+  --Poppins600: 600;
+  --Poppins700: 700;
+}
+
+body {
+  font-family: "Poppins";
+  margin: 0px;
+  color: var(--White);
+}
+
+.Small_Picture {
+  width: 15px;
+  height: 20px;
+}
+.Picture {
+  width: 35px;
+  height: auto;
+}
+.Black {
+  filter: grayscale(100%) brightness(0%);
+}
+.White {
+  filter: grayscale(0%) brightness(100%) invert(100%);
+}
+.Color_Gray {
+  color: var(--Gray300);
+}
+.Divider_Horizontal {
+  border-top: 1px solid var(--Gray200);
+}
+.Divider_Vertical_Small {
+  border-right: 1px solid var(--Gray200);
+  margin-block: 15px;
+}
+.Divider_Vertical {
+  border-right: 1px solid var(--Gray200);
+  margin-block: 5px;
+}
+.Logo {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 10px;
+}
+.title {
+  margin: 0px;
+}

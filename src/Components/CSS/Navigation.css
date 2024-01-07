@@ -1,0 +1,68 @@
+.Top {
+  font-size: 13px;
+}
+.Bottom {
+  background-color: var(--Gray800);
+  color: var(--White);
+}
+.Navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-inline: 100px;
+}
+.Location {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+.Setting {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.Logo_name {
+  font-weight: var(--Poppins500);
+}
+.input_search {
+  border: solid 1px var(--Gray200);
+  border-radius: 3px;
+  padding: 10px;
+
+  max-width: 100%;
+  width: 350px;
+}
+.search_btn {
+  margin: -5px;
+  background-color: var(--Primary);
+  border: transparent 1px solid;
+  border-radius: 0 3px 3px 0;
+  padding: 10px 25px;
+  color: var(--White);
+}
+.input_search:focus + .search_btn {
+  padding: 11px 25px;
+}
+.input_search:focus {
+  outline: solid 1px var(--Gray300);
+}
+.Wishlist_Cart {
+  display: flex;
+  gap: 10px;
+}
+.Shopping_Amount {
+  display: flex;
+}
+.Category {
+  display: flex;
+  margin: 10px;
+  gap: 10px;
+}
+.Phone {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  gap: 10px;
+}

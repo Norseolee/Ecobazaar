@@ -1,0 +1,73 @@
+.Subscribe_Base {
+  display: flex;
+  justify-content: space-between;
+  padding-inline: 100px;
+}
+.Subscribe_information {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  color: var(--Gray900);
+}
+.Email_Social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.Subscribe_input {
+  border: solid 1px var(--Gray200);
+  padding: 12px;
+  border-radius: 35px;
+  width: 350px;
+  min-width: 200px;
+}
+.Subscribe_btn {
+  margin-left: -50px;
+  background-color: var(--Primary);
+  border: transparent 1px solid;
+  border-radius: 35px;
+  padding-block: 12px;
+  padding-inline: 25px;
+  color: var(--White);
+}
+.Subscribe_input:focus + .Subscribe_btn {
+  padding-block: 14px;
+}
+.Subscribe_input:focus {
+  outline: 2px solid var(--Gray300);
+}
+.Social_Media {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Social_Media > * {
+  cursor: pointer;
+}
+.Footer_Base {
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--Gray900);
+  color: var(--White);
+  padding-inline: 100px;
+  padding-block: 30px;
+}
+.Ecobazaar_Information {
+  display: flex;
+  flex-direction: column;
+}
+.Footer_links {
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.Footer_Bottom {
+  background-color: var(--Gray900);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-inline: 100px;
+}
