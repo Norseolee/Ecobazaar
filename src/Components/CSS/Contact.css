@@ -1,0 +1,75 @@
+.Contact_Base {
+  display: flex;
+  justify-content: center;
+
+  align-items: stretch;
+  gap: 50px;
+
+  padding: 50px;
+}
+.Contact_Information {
+  width: 312px;
+  display: flex;
+  flex-direction: column;
+
+  padding-inline: 20px;
+  border: 1px solid var(--Gray100);
+  box-shadow: 0px 0px 50px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+
+  text-align: center;
+
+  margin-block: 50px;
+
+  min-width: 315px;
+}
+.Contact_Inquiry {
+  flex: 2;
+  margin-block: 50px;
+  padding: 50px;
+  border: 1px solid var(--Gray100);
+  box-shadow: 0px 0px 50px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+
+  display: flex;
+  flex-direction: column;
+
+  max-width: 984px;
+}
+.Contact_Inquiry button {
+  align-self: start;
+}
+.Location,
+.Contact_Email,
+.Contact_Phone {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  padding-block: 24px;
+}
+.First {
+  margin-top: 16px;
+}
+.Contact_Title h1,
+.Contact_title p {
+  margin: 0px;
+}
+.Contact_Form,
+.Contact_Subject,
+.Contact_Messege {
+  display: flex;
+  flex-direction: column;
+}
+.Contact_Email_Form {
+  display: flex;
+  gap: 10px;
+}
+.Contact_Email_Form > * {
+  flex: 1;
+}
+.Contact_Messege textarea {
+  resize: none;
+  overflow: auto;
+}
