@@ -1,0 +1,20 @@
+.Picture_Display {
+  width: 500px;
+}
+.Error_Base {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  margin: 50px;
+}
+.Back-btn {
+  background-color: var(--Primary);
+  border: transparent 1px solid;
+  border-radius: 30px;
+  padding: 10px 30px;
+  color: var(--White);
+  font-weight: var(--Poppins400);
+}

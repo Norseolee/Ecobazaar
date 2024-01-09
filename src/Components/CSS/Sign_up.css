@@ -1,0 +1,48 @@
+.CraeteAccount_Base {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.CreateAccount_Form {
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  align-items: space-between;
+
+  margin: 100px;
+  padding: 20px;
+
+  border-radius: 20px;
+  box-shadow: 0px 0px 50px 5px rgba(0, 0, 0, 0.1);
+  text-align: center;
+
+  background-color: white;
+}
+.Terms {
+  text-align: start;
+
+  font-size: small;
+}
+.PasswordInput {
+  position: relative;
+}
+.Eye {
+  position: absolute;
+  border: none;
+  background-color: transparent;
+  top: 12px;
+  right: 10px;
+}
+.Create_Account {
+  border: 1px solid var(--Primary);
+  border-radius: 30px;
+  background-color: var(--Primary);
+  padding-block: 10px;
+  color: var(--White);
+  font-weight: bold;
+
+  margin: 20px;
+
+  cursor: pointer;
+}

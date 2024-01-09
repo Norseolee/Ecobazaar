@@ -1,0 +1,16 @@
+.OrderHistory_Base {
+  display: flex;
+  flex-direction: column;
+
+  margin-block: 32px;
+  margin-right: 32px;
+  border-radius: 8px;
+  border: 1px solid var(--Gray100);
+}
+.OrderHistory_Title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding-inline: 32px;
+}

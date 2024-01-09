@@ -1,0 +1,11 @@
+.FAQ_Base {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Display_Picture {
+  width: 500px;
+
+  margin-left: 50px;
+  margin-top: 50px;
+}  

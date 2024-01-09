@@ -1,9 +1,11 @@
-import MapPin from "./Assets/MapPin.png";
-import Logo from "./Assets/Logo.png";
-import Call from "./Assets/PhoneCall 1.png";
-import Heart from "./Assets/Heart.png";
-import Cart from "./Assets/Cart.png";
-import "./CSS/Navigation.css";
+import MapPin from "../Assets/MapPin.png";
+import Logo from "../Assets/Logo.png";
+import Call from "../Assets/PhoneCall 1.png";
+import Heart from "../Assets/Heart.png";
+import Cart from "../Assets/Cart.png";
+
+import { Link } from "react-router-dom";
+import "../CSS/Navigation.css";
 
 const Navigations = () => {
   return (
@@ -26,7 +28,9 @@ const Navigations = () => {
           </div>
           <div className="Divider_Vertical_Small"></div>
           <div>
-            <p>Sign In/ Sign Up </p>
+            <Link to="/sign-in">
+              <p>Sign In/ Sign Up </p>
+            </Link>
           </div>
         </div>
       </div>
@@ -34,7 +38,7 @@ const Navigations = () => {
       <div className="Navigation">
         <div className="Logo">
           <img src={Logo} className="Picture" alt="Logo" />
-          <h1 class="Logo_name">Ecobazaar</h1>
+          <h1 className="Logo_name">Ecobazaar</h1>
         </div>
         <div>
           <input className="input_search" type="text" placeholder="Search" />
@@ -52,12 +56,29 @@ const Navigations = () => {
       </div>
       <div className="Navigation Bottom">
         <div className="Category">
-          <p>Home</p>
-          <p>Shop</p>
-          <p>Pages</p>
-          <p>Blog</p>
-          <p>About Us</p>
-          <p>Contact Us</p>
+          <Link to="/">
+            <p>Home</p>
+          </Link>
+
+          <Link to="/shop">
+            <p>Shop</p>
+          </Link>
+
+          <Link to="/pages">
+            <p>Pages</p>
+          </Link>
+
+          <Link to="/blog-list">
+            <p>Blog</p>
+          </Link>
+
+          <Link to="/about">
+            <p>About Us</p>
+          </Link>
+
+          <Link to="/contact">
+            <p>Contact</p>
+          </Link>
         </div>
         <div className="Phone">
           <img src={Call} className="Picture White" alt="Phone Call Logo" />

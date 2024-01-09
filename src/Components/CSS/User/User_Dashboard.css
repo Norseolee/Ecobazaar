@@ -1,0 +1,34 @@
+.Dashboard_Base {
+  display: flex;
+  flex-direction: column;
+  margin-block: 32px;
+  margin-right: 32px;
+}
+.Dashboard_Profile_Billing {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+.Dashboard_Profile,
+.Dashboard_Billing {
+  flex: 1;
+
+  border-radius: 8px;
+  border: 1px solid var(--Gray100);
+  padding: 32px;
+}
+.Dashboard_OrderHistory {
+  display: flex;
+  flex-direction: column;
+
+  margin-top: 24px;
+  border-radius: 8px;
+  border: 1px solid var(--Gray100);
+}
+.DashboardOrderHistory_Base {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding-inline: 32px;
+}

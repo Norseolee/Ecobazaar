@@ -1,7 +1,12 @@
 .Subscribe_Base {
   display: flex;
   justify-content: space-between;
-  padding-inline: 100px;
+  align-items: center;
+  padding: 30px 100px;
+
+  background-color: var(--Gray50);
+
+  gap: 50px;
 }
 .Subscribe_information {
   display: flex;
@@ -10,21 +15,29 @@
   align-items: start;
   color: var(--Gray900);
 }
-.Email_Social {
+.Subscribe_Email {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 10px;
+
+  flex: 1;
+  max-width: 800px;
+  position: relative;
+
+  margin-inline: 50px;
 }
+
 .Subscribe_input {
   border: solid 1px var(--Gray200);
   padding: 12px;
   border-radius: 35px;
-  width: 350px;
-  min-width: 200px;
+
+  min-width: 300px;
+  width: 100%;
 }
 .Subscribe_btn {
-  margin-left: -50px;
+  right: 0;
+  position: absolute;
   background-color: var(--Primary);
   border: transparent 1px solid;
   border-radius: 35px;
@@ -42,6 +55,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
+
+  gap: 10px;
 }
 .Social_Media > * {
   cursor: pointer;

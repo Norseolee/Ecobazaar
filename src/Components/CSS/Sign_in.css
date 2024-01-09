@@ -1,0 +1,31 @@
+.SignIn_Base {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.SignInForm {
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  align-items: space-between;
+
+  margin: 100px;
+  padding: 20px;
+
+  border-radius: 20px;
+  box-shadow: 0px 0px 50px 5px rgba(0, 0, 0, 0.1);
+  text-align: center;
+
+  background-color: white;
+}
+
+.Login-btn {
+  background-color: var(--Primary);
+  border-radius: 30px;
+  border: transparent 1px solid;
+  padding-block: 10px;
+  color: var(--White);
+
+  cursor: pointer;
+}
