@@ -9,7 +9,7 @@ import "../CSS/Navigation.css";
 
 const Navigations = () => {
   return (
-    <div>
+    <div style={{ width: "100%" }}>
       <div className="Navigation Top">
         <div className="Location">
           <img
@@ -35,12 +35,13 @@ const Navigations = () => {
         </div>
       </div>
       <div className="Divider_Horizontal"></div>
-      <div className="Navigation">
+
+      <div className="Navigation Middle">
         <div className="Logo">
           <img src={Logo} className="Picture" alt="Logo" />
           <h1 className="Logo_name">Ecobazaar</h1>
         </div>
-        <div>
+        <div className="Search_Base">
           <input className="input_search" type="text" placeholder="Search" />
           <button className="search_btn">Search</button>
         </div>
@@ -56,27 +57,83 @@ const Navigations = () => {
       </div>
       <div className="Navigation Bottom">
         <div className="Category">
-          <Link to="/">
+          <Link to="/" className="Nav_link">
             <p>Home</p>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="12"
+              height="8"
+              viewBox="0 0 12 8"
+              fill="none">
+              <path
+                d="M1.33329 1.66669L5.99996 6.33335L10.6666 1.66669"
+                stroke="white"
+                stroke-width="1.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
           </Link>
 
-          <Link to="/shop">
+          <Link to="/shop" className="Nav_link">
             <p>Shop</p>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="12"
+              height="8"
+              viewBox="0 0 12 8"
+              fill="none">
+              <path
+                d="M1.33329 1.66669L5.99996 6.33335L10.6666 1.66669"
+                stroke="white"
+                stroke-width="1.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
           </Link>
 
-          <Link to="/pages">
+          <Link to="/pages" className="Nav_link">
             <p>Pages</p>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="12"
+              height="8"
+              viewBox="0 0 12 8"
+              fill="none">
+              <path
+                d="M1.33329 1.66669L5.99996 6.33335L10.6666 1.66669"
+                stroke="white"
+                stroke-width="1.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
           </Link>
 
-          <Link to="/blog-list">
+          <Link to="/blog-list" className="Nav_link">
             <p>Blog</p>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="12"
+              height="8"
+              viewBox="0 0 12 8"
+              fill="none">
+              <path
+                d="M1.33329 1.66669L5.99996 6.33335L10.6666 1.66669"
+                stroke="white"
+                stroke-width="1.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
           </Link>
 
-          <Link to="/about">
+          <Link to="/about" className="Nav_link">
             <p>About Us</p>
           </Link>
 
-          <Link to="/contact">
+          <Link to="/contact" className="Nav_link">
             <p>Contact</p>
           </Link>
         </div>

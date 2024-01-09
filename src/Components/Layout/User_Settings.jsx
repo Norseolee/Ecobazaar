@@ -1,53 +1,55 @@
-import React from "react";
+import "../CSS/User/User_Settings.css";
 
 const User_Settings = () => {
   return (
-    <div>
+    <div style={{ flex: 1 }}>
       <div className="Settings_Base">
         <div className="Account_Setting_Base">
           <div className="Account_Title">
             <h3>Account Settings</h3>
           </div>
           <div className="Account_Form_Base">
-            <div className="Account_Form">
-              <div>
-                <label htmlFor="First_Name">First name</label>
-                <input
-                  type="text"
-                  name="First_Name"
-                  id="First_Name"
-                  className="Input_Design"
-                />
+            <div>
+              <div className="Account_Form">
+                <div>
+                  <label htmlFor="First_Name">First name</label>
+                  <input
+                    type="text"
+                    name="First_Name"
+                    id="First_Name"
+                    className="Input_Design"
+                  />
+                </div>
+                <div>
+                  <label htmlFor="Last_Name">Last name</label>
+                  <input
+                    type="text"
+                    name="Last_Name"
+                    id="Last_Name"
+                    className="Input_Design"
+                  />
+                </div>
+                <div>
+                  <label htmlFor="Email">Email</label>
+                  <input
+                    type="email"
+                    name="Email"
+                    id="Email"
+                    className="Input_Design"
+                  />
+                </div>
+                <div>
+                  <label htmlFor="Phone_Number">Phone Number</label>
+                  <input type="text" className="Input_Design" />
+                </div>
               </div>
-              <div>
-                <label htmlFor="Last_Name">Last name</label>
-                <input
-                  type="text"
-                  name="Last_Name"
-                  id="Last_Name"
-                  className="Input_Design"
-                />
-              </div>
-              <div>
-                <label htmlFor="Email">Email</label>
-                <input
-                  type="email"
-                  name="Email"
-                  id="Email"
-                  className="Input_Design"
-                />
-              </div>
-              <div>
-                <label htmlFor="Phone_Number">Phone Number</label>
-                <input type="text" className="Input_Design" />
+              <div className="Picture_Form">
+                <img src="" id="Profile_Picture" alt="" />
+                <input type="file" name="" id="" hidden />
+                <button className="Btn-Border Btn-Small">Choose Image</button>
               </div>
             </div>
-            <div className="Picture_Form">
-              <img src="" id="Profile_Picture" alt="" />
-              <input type="file" name="" id="" hidden />
-              <button className="Btn-Design">Choose Image</button>
-            </div>
-            <button className="Btn-Design">Save Changes</button>
+            <button className="Btn-Fill Btn-Small">Save Changes</button>
           </div>
         </div>
 
@@ -56,7 +58,7 @@ const User_Settings = () => {
             <h3>Billing Address</h3>
           </div>
           <div className="Billing_Form">
-            <div>
+            <div className="Billing_Name">
               <div>
                 <label htmlFor="First_Name_Billing">First name</label>
                 <input
@@ -85,7 +87,7 @@ const User_Settings = () => {
                 />
               </div>
             </div>
-            <div>
+            <div className="Billing_Street_Address">
               <label htmlFor="Street_Address_Billing">Street Address</label>
               <input
                 type="text"
@@ -94,7 +96,7 @@ const User_Settings = () => {
                 className="Input_Design"
               />
             </div>
-            <div>
+            <div className="Billing_Address">
               <div>
                 <label htmlFor="Country_Region">Country/Region</label>
                 <input
@@ -123,7 +125,7 @@ const User_Settings = () => {
                 />
               </div>
             </div>
-            <div>
+            <div className="Billing_Contact">
               <div>
                 <label htmlFor="Email_Billing">Email</label>
                 <input
@@ -143,8 +145,8 @@ const User_Settings = () => {
                 />
               </div>
             </div>
-            <button className="Input-Design">Save Changes</button>
           </div>
+          <button className="Btn-Fill Btn-Small">Save Changes</button>
         </div>
 
         <div className="Account_ChangePass_Base">
@@ -152,8 +154,8 @@ const User_Settings = () => {
             <h3>Change Password</h3>
           </div>
           <div className="ChangePass_Form">
-            <div>
-              <label htmlFor="Current_Password">Password</label>
+            <div class="Current_Password">
+              <label htmlFor="Current_Password">Current Password</label>
               <input
                 type="text"
                 name="Current_Password"
@@ -161,7 +163,7 @@ const User_Settings = () => {
                 className="Input_Design"
               />
             </div>
-            <div>
+            <div className="Password_ConfirmPassword">
               <div>
                 <label htmlFor="Password">Password</label>
                 <input
@@ -181,8 +183,8 @@ const User_Settings = () => {
                 />
               </div>
             </div>
-            <button className="Btn-Design">Change Password</button>
           </div>
+          <button className="Btn-Fill Btn-Small">Change Password</button>
         </div>
       </div>
     </div>

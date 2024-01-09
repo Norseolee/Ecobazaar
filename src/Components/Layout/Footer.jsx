@@ -68,7 +68,7 @@ function Footer() {
               <p>My Account</p>
             </div>
             <div className="Color_Gray">
-              <Link to="/user">
+              <Link to="/user/dashboard">
                 <p>My Account</p>
               </Link>
               <Link to="order-history">

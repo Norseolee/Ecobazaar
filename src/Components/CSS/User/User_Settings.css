@@ -1,0 +1,118 @@
+.Settings_Base {
+  display: flex;
+  flex-direction: column;
+  margin-block: 32px;
+  margin-right: 32px;
+}
+.Account_Setting_Base {
+  border: 1px solid var(--Gray100);
+  border-radius: 8px;
+}
+.Account_Title {
+  padding-inline: 24px;
+  border-bottom: 1px solid var(--Gray100);
+}
+.Account_Form_Base {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+}
+.Account_Form_Base > div {
+  display: flex;
+  justify-content: space-between;
+  padding: 24px;
+  width: 100%;
+  flex: 1;
+}
+.Account_Form_Base button {
+  margin-inline: 24px;
+  margin-bottom: 20px;
+}
+.Account_Form {
+  flex: 1;
+}
+.Picture_Form {
+  flex: 1;
+}
+.Account_Form div {
+  display: flex;
+  flex-direction: column;
+}
+
+/*  */
+
+.Account_Billing_Base {
+  margin-top: 30px;
+  border: 1px solid var(--Gray100);
+  border-radius: 8px;
+}
+.Account_Billing_Base button {
+  margin-inline: 24px;
+  margin-bottom: 20px;
+}
+.Billing_Title {
+  padding-inline-start: 24px;
+  padding-inline-end: 24px;
+  border-bottom: 1px solid var(--Gray100);
+}
+.Billing_Form {
+  display: flex;
+  flex-direction: column;
+  padding: 24px;
+  flex: 1;
+}
+.Billing_Name,
+.Billing_Address,
+.Billing_Contact {
+  display: flex;
+  gap: 30px;
+}
+.Billing_Name > div,
+.Billing_Address > div,
+.Billing_Contact > div {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+.Billing_Street_Address {
+  display: flex;
+  flex-direction: column;
+}
+
+/*  */
+
+.Account_ChangePass_Base {
+  border: 1px solid var(--Gray100);
+  border-radius: 8px;
+
+  margin-top: 30px;
+}
+.Account_ChangePass_Base button {
+  margin-inline: 24px;
+  margin-bottom: 20px;
+}
+.ChangePass_Title {
+  padding-inline-start: 24px;
+  padding-inline-end: 24px;
+  border-bottom: 1px solid var(--Gray100);
+}
+.ChangePass_Form {
+  display: flex;
+  flex-direction: column;
+  padding: 24px;
+  flex: 1;
+}
+.Current_Password {
+  display: flex;
+  flex-direction: column;
+}
+.Password_ConfirmPassword {
+  display: flex;
+  gap: 30px;
+}
+.Password_ConfirmPassword > div {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}

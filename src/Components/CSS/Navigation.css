@@ -5,6 +5,10 @@
   background-color: var(--Gray800);
   color: var(--White);
 }
+.Middle {
+  gap: 5%;
+}
+
 .Navigation {
   display: flex;
   justify-content: space-between;
@@ -22,43 +26,81 @@
   gap: 10px;
 }
 
+/*  */
+
+.Logo {
+  width: 300px;
+  display: flex;
+  align-items: center;
+}
 .Logo_name {
   font-weight: var(--Poppins500);
+  margin-left: 10px;
+}
+.Search_Base {
+  flex: 1;
+  display: flex;
+  align-items: center;
 }
 .input_search {
-  border: solid 1px var(--Gray200);
-  border-radius: 3px;
-  padding: 10px;
-
-  max-width: 100%;
-  width: 350px;
+  flex: 1;
+  min-width: 300px;
+  padding: 12px 16px;
+  border: 1px solid var(--Gray400);
+  border-right: 0;
+  outline: none;
 }
 .search_btn {
-  margin: -5px;
+  width: 98px;
+  padding: 14px 24px;
+  border: none;
+  border-radius: 0 6px 6px 0;
   background-color: var(--Primary);
-  border: transparent 1px solid;
-  border-radius: 0 3px 3px 0;
-  padding: 10px 25px;
   color: var(--White);
+  cursor: pointer;
+  outline: none;
 }
-.input_search:focus + .search_btn {
-  padding: 11px 25px;
-}
-.input_search:focus {
-  outline: solid 1px var(--Gray300);
+.search_btn:focus {
+  border: 3px solid var(--Primary);
 }
 .Wishlist_Cart {
   display: flex;
   gap: 10px;
 }
-.Shopping_Amount {
+.Wishlist_Cart {
+  width: 300px;
+
   display: flex;
+  justify-content: end;
+  align-items: center;
+  gap: 10px;
 }
+
+/*  */
+
 .Category {
   display: flex;
   margin: 10px;
-  gap: 10px;
+  gap: 32px;
 }
+.Nav_link {
+  display: flex;
+  align-items: center; /* Vertically align items */
+  gap: 5px;
+  color: var(--Gray400);
+  text-decoration: none;
+}
+.Nav_link svg path {
+  stroke: var(--Gray400);
+  transition: stroke 0.3s;
+}
+.Nav_link:hover {
+  color: var(--White);
+}
+.Nav_link:hover svg path {
+  stroke: var(--White);
+}
+
 .Phone {
   display: flex;
   justify-content: center;

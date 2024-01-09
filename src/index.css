@@ -19,6 +19,7 @@
 
   /* green */
   --Green50: #edf2ee;
+  --Green100: #2c742f33;
 }
 
 body {
@@ -82,7 +83,6 @@ body {
 
   padding: 14px;
   margin-bottom: 12px;
-  width: 350px;
 }
 .Input_Design:focus {
   outline: 2px solid var(--Primary);
@@ -117,18 +117,61 @@ input[type="checkbox"]:checked::before {
   color: white;
   font-size: 16px;
 }
+
+/* Links */
 .Btn {
   color: var(--Primary);
   font-weight: 500;
 }
-.Btn-Design {
+
+/* BUTTON */
+/* normal */
+.Btn-Fill {
+  border: 1px transparent solid;
+  border-radius: 43px;
   background-color: var(--Primary);
-  border-radius: 30px;
-  border: transparent 1px solid;
-  padding-block: 10px;
   color: var(--White);
 
-  cursor: pointer;
+  transition: background-color 0.5s;
+}
+.Btn-Fill:hover {
+  background-color: var(--HardPrimary);
+}
+.Btn-Border {
+  border: 2px solid var(--Primary);
+  border-radius: 43px;
+  background-color: var(--White);
+  color: var(--Primary);
+
+  transition: background-color 0.5s;
+}
+.Btn-Border:hover {
+  border: 2px solid var(--HardPrimary);
+  color: var(--HardPrimary);
+}
+.Btn-Ghost {
+  border: 2px solid transparent;
+  border-radius: 43px;
+  background-color: var(--Green50);
+  color: var(--Primary);
+
+  transition: background-color 0.5s;
+}
+.Btn-Ghost:hover {
+  background-color: var(--Green100);
+  color: var(--HardPrimary);
+}
+.Btn-Small {
+  padding: 10px 24px;
+  font-weight: 700;
+}
+.Btn-Medium {
+  padding: 14px 32px;
+  font-weight: 700;
+}
+.Btn-Large {
+  padding: 16px 40px;
+  font-weight: 700;
 }
 
 /* Table Design */
