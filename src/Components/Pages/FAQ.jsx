@@ -4,8 +4,7 @@ import "../CSS/FAQ.css";
 
 const FAQ = () => {
   return (
-    <>
-      <div className="FAQ_Base">
+    <div className="FAQ_Base">
         <div>
           <div>
             <h1>
@@ -24,7 +23,6 @@ const FAQ = () => {
           />
         </div>
       </div>
-    </>
   );
 };
 

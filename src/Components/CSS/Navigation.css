@@ -15,7 +15,7 @@
   align-items: center;
   padding-inline: 100px;
 }
-.Location {
+.Location_Navigation {
   display: flex;
   gap: 5px;
   align-items: center;
@@ -83,23 +83,7 @@
   margin: 10px;
   gap: 32px;
 }
-.Nav_link {
-  display: flex;
-  align-items: center; /* Vertically align items */
-  gap: 5px;
-  color: var(--Gray400);
-  text-decoration: none;
-}
-.Nav_link svg path {
-  stroke: var(--Gray400);
-  transition: stroke 0.3s;
-}
-.Nav_link:hover {
-  color: var(--White);
-}
-.Nav_link:hover svg path {
-  stroke: var(--White);
-}
+
 
 .Phone {
   display: flex;

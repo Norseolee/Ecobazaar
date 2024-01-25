@@ -11,7 +11,7 @@ const Navigations = () => {
   return (
     <div style={{ width: "100%" }}>
       <div className="Navigation Top">
-        <div className="Location">
+        <div className="Location_Navigation">
           <img
             src={MapPin}
             alt="Map Pin Logo"
@@ -68,9 +68,9 @@ const Navigations = () => {
               <path
                 d="M1.33329 1.66669L5.99996 6.33335L10.6666 1.66669"
                 stroke="white"
-                stroke-width="1.5"
-                stroke-linecap="round"
-                stroke-linejoin="round"
+                strokeWidth="1.5"
+                strokeLinecap="round"
+                strokeLinejoin="round"
               />
             </svg>
           </Link>
@@ -86,9 +86,9 @@ const Navigations = () => {
               <path
                 d="M1.33329 1.66669L5.99996 6.33335L10.6666 1.66669"
                 stroke="white"
-                stroke-width="1.5"
-                stroke-linecap="round"
-                stroke-linejoin="round"
+                strokeWidth="1.5"
+                strokeLinecap="round"
+                strokeLinejoin="round"
               />
             </svg>
           </Link>
@@ -104,9 +104,9 @@ const Navigations = () => {
               <path
                 d="M1.33329 1.66669L5.99996 6.33335L10.6666 1.66669"
                 stroke="white"
-                stroke-width="1.5"
-                stroke-linecap="round"
-                stroke-linejoin="round"
+                strokeWidth="1.5"
+                strokeLinecap="round"
+                strokeLinejoin="round"
               />
             </svg>
           </Link>
@@ -122,9 +122,9 @@ const Navigations = () => {
               <path
                 d="M1.33329 1.66669L5.99996 6.33335L10.6666 1.66669"
                 stroke="white"
-                stroke-width="1.5"
-                stroke-linecap="round"
-                stroke-linejoin="round"
+                strokeWidth="1.5"
+                strokeLinecap="round"
+                strokeLinejoin="round"
               />
             </svg>
           </Link>

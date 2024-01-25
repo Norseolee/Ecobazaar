@@ -28,6 +28,24 @@ body {
   color: var(--Gray900);
 }
 
+.Nav_link {
+  display: flex;
+  align-items: center; /* Vertically align items */
+  gap: 5px;
+  color: var(--Gray400);
+  text-decoration: none;
+}
+.Nav_link svg path {
+  stroke: var(--Gray400);
+  transition: stroke 0.3s;
+}
+.Nav_link:hover {
+  color: var(--White);
+}
+.Nav_link:hover svg path {
+  stroke: var(--White);
+}
+
 /* Imagee size */
 .Small_Picture {
   width: 15px;

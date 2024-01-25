@@ -1,0 +1,184 @@
+/*  */
+.About_Section_One {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap-reverse;
+  gap: 50px;
+  margin: 80px;
+}
+.About_Section_One_Picture img {
+  width: 100%;
+  height: auto;
+}
+/*  */
+.About_Section_Two {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  flex-wrap: wrap;
+}
+.About_Section_Two > * {
+  min-width: 600px;
+  flex: 1;
+}
+.About_Section_Two_Picture {
+  position: relative;
+  overflow: hidden;
+}
+.About_Section_Two_Picture_Person {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+.About_Section_Two_Picture_Background {
+  width: 100%;
+  height: auto;
+}
+.About_Section_Two_Description {
+  display: flex;
+  flex-direction: column;
+
+  margin: 50px;
+}
+.About_Section_Benefits_Grouping {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  flex-wrap: wrap;
+}
+.Benefits_Items {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.About_Benefit_Title {
+  font-weight: 600;
+}
+.Benefits_Logo {
+  background-color: var(--Green50);
+  padding: 16px;
+  border-radius: 50px;
+}
+/*  */
+.About_Section_Three {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px;
+  flex-wrap: wrap;
+}
+.About_Section_Three > * {
+  flex: 1;
+}
+.About_Section_Three_Description {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+
+  min-width: 600px;
+}
+.About_Section_Three_Picture img {
+  width: 100%;
+  height: auto;
+  min-width: 600px;
+}
+.About_Section_Three_Multiple > div {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 10px;
+}
+.About_Section_Three_Multiple svg {
+  background-color: var(--Green50);
+  border-radius: 50px;
+  padding: 5px;
+}
+.Btn_Arrow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+
+  padding-inline: 50px;
+
+  margin-block: 20px;
+}
+/*  */
+.About_Section_Four {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  background-color: var(--Green50);
+}
+.About_Team_Card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  background-color: var(--White);
+  border-radius: 8px;
+}
+.About_Team_Information {
+  padding: 20px;
+}
+.About_Team_Information p {
+  margin: 0px;
+  text-align: start;
+}
+.About_Team_Name {
+  font-size: large;
+  font-weight: 500;
+}
+.About_Team_Work {
+  color: var(--Gray400);
+}
+.About_Section_Team {
+  margin: 50px;
+  display: flex;
+  gap: 24px;
+}
+.About_Team_Profile {
+  position: relative;
+  overflow: hidden;
+
+  height: 280px;
+
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+.About_Team_Picture img {
+  width: 312px;
+  height: 280px;
+}
+.About_Team_Links {
+  display: none;
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.About_Team_Card:hover .About_Team_Links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.About_Team_Links img {
+  width: 30px;
+  height: 30px;
+  object-fit: contain;
+
+  padding: 20px;
+}
+.About_Team_Links img:hover {
+  background-color: var(--Primary);
+  border-radius: 40%;
+}

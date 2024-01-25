@@ -32,16 +32,16 @@ function Footer() {
           <button className="Subscribe_btn">Subscribe</button>
         </div>
         <div className="Social_Media">
-          <a href="https://www.facebook.com/" target="_blank">
+          <a href="https://www.facebook.com/" target="_blank" rel="noreferrer">
             <img src={facebook} className="Picture" alt="facebook Logo" />
           </a>
-          <a href="https://twitter.com/" target="_blank">
+          <a href="https://twitter.com/" target="_blank" rel="noreferrer">
             <img src={twitter} className="Picture" alt="twitter logo" />
           </a>
-          <a href="https://www.pinterest.ph/" target="_blank">
+          <a href="https://www.pinterest.ph/" target="_blank" rel="noreferrer">
             <img src={pinterest} className="Picture" alt="pinterest logo" />
           </a>
-          <a href="https://www.instagram.com/" target="_blank">
+          <a href="https://www.instagram.com/" target="_blank" rel="noreferrer">
             <img src={instagram} className="Picture" alt="instagram logo" />
           </a>
         </div>
@@ -68,16 +68,16 @@ function Footer() {
               <p>My Account</p>
             </div>
             <div className="Color_Gray">
-              <Link to="/user/dashboard">
+              <Link className="Nav_link" to="/user/dashboard">
                 <p>My Account</p>
               </Link>
-              <Link to="order-history">
+              <Link  className="Nav_link" to="order-history">
                 <p>Order History</p>
               </Link>
-              <Link to="/shopping-cart">
+              <Link  className="Nav_link" to="/shopping-cart">
                 <p>Shopping Cart</p>
               </Link>
-              <Link to="wishlist">
+              <Link  className="Nav_link" to="wishlist">
                 <p>Wishlist</p>
               </Link>
             </div>
@@ -87,16 +87,16 @@ function Footer() {
               <p>Helps</p>
             </div>
             <div className="Color_Gray">
-              <Link to="/contact">
+              <Link className="Nav_link" to="/contact">
                 <p>Contact</p>
               </Link>
-              <Link to="/FAQ">
+              <Link className="Nav_link" to="/FAQ">
                 <p>Faqs</p>
               </Link>
-              <Link to="/">
+              <Link className="Nav_link" to="/">
                 <p>Terms & Condition</p>
               </Link>
-              <Link to="/">
+              <Link className="Nav_link" to="/">
                 <p>Privacy Policy</p>
               </Link>
             </div>
@@ -106,16 +106,16 @@ function Footer() {
               <p>Proxy</p>
             </div>
             <div className="Color_Gray">
-              <Link to="/about">
+              <Link className="Nav_link" to="/about">
                 <p>About</p>
               </Link>
-              <Link to="/shop">
+              <Link className="Nav_link" to="/shop">
                 <p>Shop</p>
               </Link>
-              <Link to="/product">
+              <Link className="Nav_link" to="/product">
                 <p>Product</p>
               </Link>
-              <Link to="/track-order">
+              <Link className="Nav_link" to="/track-order">
                 <p>Track Order</p>
               </Link>
             </div>
@@ -125,7 +125,10 @@ function Footer() {
               <p>Categories</p>
             </div>
             <div className="Color_Gray">
+              <Link className="Nav_link">
               <p>Fruits & Vegetables</p>
+              </Link>
+            <Link ></Link>
               <p>Meat & Fish</p>
               <p>Bread & Bakery</p>
               <p>Beauty & Health</p>
