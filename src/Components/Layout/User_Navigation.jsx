@@ -1,11 +1,11 @@
 import "../CSS/User/UserNavigation.css";
 import { Link } from "react-router-dom";
-import Dashboard_Logo from "../Assets/Dashboard_Logo.png";
-import OrderHistory_Logo from "../Assets/OrderHistory_Logo.png";
-import Heart_Logo from "../Assets/Heart.png";
-import ShoppingCart_Logo from "../Assets/Cart.png";
-import Settings_Logo from "../Assets/Settings_Logo.png";
-import LogOut_Logo from "../Assets/Logout_Logo.png";
+import Dashboard_Logo from "../Assets/Icons/Dashboard_Logo.png";
+import OrderHistory_Logo from "../Assets/Icons/OrderHistory_Logo.png";
+import Heart_Logo from "../Assets/Icons/Heart_Black.svg";
+import ShoppingCart_Logo from "../Assets/Icons/Cart.png";
+import Settings_Logo from "../Assets/Icons/Settings_Logo.png";
+import LogOut_Logo from "../Assets/Icons/Logout_Logo.png";
 
 const User_Navigation = () => {
   return (

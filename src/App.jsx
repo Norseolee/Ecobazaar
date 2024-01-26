@@ -10,8 +10,8 @@ import Navigations from "./Components/Layout/Navigations";
 import Footer from "./Components/Layout/Footer";
 import Contact from "./Components/Pages/Contact";
 import About from "./Components/Pages/About";
-import BlogList from "./Components/pages/Bloglist";
-
+import BlogList from "./Components/Pages/Bloglist";
+import Shop from "./Components/Pages/Shop";
 
 
 const App = () => {
@@ -26,7 +26,8 @@ const App = () => {
         {/* Pages */}
         <Route path="/" element={<Homepage />} />
         <Route path="/user/*" element={<User_Page />} />
-       
+        <Route path="/shop" element={<Shop />} />
+
 
         {/* Ecobazaar */}
         <Route path="/contact" element={<Contact />} />

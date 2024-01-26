@@ -1,17 +1,21 @@
-import MapPin from "../Assets/MapPin.png";
-import Logo from "../Assets/Logo.png";
-import Call from "../Assets/PhoneCall 1.png";
-import Heart from "../Assets/Heart.png";
-import Cart from "../Assets/Cart.png";
+import MapPin from "../Assets/Icons/MapPin.png";
+import Logo from "../Assets/Icons/Logo.png";
+import Call from "../Assets/Icons/PhoneCall 1.png";
+import Heart from "../Assets/Icons/Heart_Black.svg";
+import Cart from "../Assets/Icons/Cart.png";
 
 import { Link } from "react-router-dom";
 import "../CSS/Navigation.css";
 
+
+import Newsletter from "../Layout/Newsletter";
+
 const Navigations = () => {
   return (
     <div style={{ width: "100%" }}>
+       <Newsletter />
       <div className="Navigation Top">
-        <div className="Location">
+        <div className="Location_Navigation">
           <img
             src={MapPin}
             alt="Map Pin Logo"
@@ -68,9 +72,9 @@ const Navigations = () => {
               <path
                 d="M1.33329 1.66669L5.99996 6.33335L10.6666 1.66669"
                 stroke="white"
-                stroke-width="1.5"
-                stroke-linecap="round"
-                stroke-linejoin="round"
+                strokeWidth="1.5"
+                strokeLinecap="round"
+                strokeLinejoin="round"
               />
             </svg>
           </Link>
@@ -86,9 +90,9 @@ const Navigations = () => {
               <path
                 d="M1.33329 1.66669L5.99996 6.33335L10.6666 1.66669"
                 stroke="white"
-                stroke-width="1.5"
-                stroke-linecap="round"
-                stroke-linejoin="round"
+                strokeWidth="1.5"
+                strokeLinecap="round"
+                strokeLinejoin="round"
               />
             </svg>
           </Link>
@@ -104,9 +108,9 @@ const Navigations = () => {
               <path
                 d="M1.33329 1.66669L5.99996 6.33335L10.6666 1.66669"
                 stroke="white"
-                stroke-width="1.5"
-                stroke-linecap="round"
-                stroke-linejoin="round"
+                strokeWidth="1.5"
+                strokeLinecap="round"
+                strokeLinejoin="round"
               />
             </svg>
           </Link>
@@ -122,9 +126,9 @@ const Navigations = () => {
               <path
                 d="M1.33329 1.66669L5.99996 6.33335L10.6666 1.66669"
                 stroke="white"
-                stroke-width="1.5"
-                stroke-linecap="round"
-                stroke-linejoin="round"
+                strokeWidth="1.5"
+                strokeLinecap="round"
+                strokeLinejoin="round"
               />
             </svg>
           </Link>

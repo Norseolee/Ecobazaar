@@ -1,3 +1,4 @@
+
 :root {
   /* Color  */
   --SoftPrimary: #84d187;
@@ -26,6 +27,24 @@ body {
   font-family: "Poppins";
   margin: 0px;
   color: var(--Gray900);
+}
+
+.Nav_link {
+  display: flex;
+  align-items: center; /* Vertically align items */
+  gap: 5px;
+  color: var(--Gray400);
+  text-decoration: none;
+}
+.Nav_link svg path {
+  stroke: var(--Gray400);
+  transition: stroke 0.3s;
+}
+.Nav_link:hover {
+  color: var(--White);
+}
+.Nav_link:hover svg path {
+  stroke: var(--White);
 }
 
 /* Imagee size */
@@ -122,16 +141,33 @@ input[type="checkbox"]:checked::before {
 .Btn {
   color: var(--Primary);
   font-weight: 500;
+  text-decoration: none;
+}
+.Arrow {
+  width: 15px; 
+  height: auto; 
+  margin-left: 10px; 
 }
 
 /* BUTTON */
 /* normal */
+.Btn-Link {
+  display: flex; 
+  color: var(--Primary);
+  font-weight: 500;
+  align-items: center;
+  padding-block: 25px;
+
+  border: none;
+  cursor: pointer;
+}
 .Btn-Fill {
   border: 1px transparent solid;
   border-radius: 43px;
   background-color: var(--Primary);
   color: var(--White);
 
+  cursor: pointer;
   transition: background-color 0.5s;
 }
 .Btn-Fill:hover {
@@ -143,7 +179,8 @@ input[type="checkbox"]:checked::before {
   background-color: var(--White);
   color: var(--Primary);
 
-  transition: background-color 0.5s;
+  transition: border 0.5s, color 0.5s;
+  cursor: pointer;
 }
 .Btn-Border:hover {
   border: 2px solid var(--HardPrimary);
@@ -155,6 +192,7 @@ input[type="checkbox"]:checked::before {
   background-color: var(--Green50);
   color: var(--Primary);
 
+  cursor: pointer;
   transition: background-color 0.5s;
 }
 .Btn-Ghost:hover {
@@ -173,6 +211,7 @@ input[type="checkbox"]:checked::before {
   padding: 16px 40px;
   font-weight: 700;
 }
+
 
 /* Table Design */
 .Table {
